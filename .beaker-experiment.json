@@ -1,0 +1,330 @@
+{
+    "description": "coref-replace-hotpotqa-dev-dirk-fixed-v2_dirk",
+    "tasks": [
+        {
+            "spec": {
+                "description": "subtask-1",
+                "image": "bp_qn83fzwt0nzm",
+                "resultPath": "/output",
+                "args": [
+                    "python",
+                    "hotpotqa_para2sentences_dirk.py",
+                    "/input/input-1.jsonl",
+                    "/output/output-1.jsonl",
+                    "--data-type",
+                    "hotpotqa"
+                ],
+                "datasetMounts": [
+                    {
+                        "datasetId": "ds_pw9nx75dp97f",
+                        "containerPath": "/input/input-1.jsonl"
+                    }
+                ],
+                "requirements": {
+                    "memory": "20g",
+                    "cpu": 16
+                }
+            },
+            "name": "subtask-1"
+        },
+        {
+            "spec": {
+                "description": "subtask-2",
+                "image": "bp_qn83fzwt0nzm",
+                "resultPath": "/output",
+                "args": [
+                    "python",
+                    "hotpotqa_para2sentences_dirk.py",
+                    "/input/input-2.jsonl",
+                    "/output/output-2.jsonl",
+                    "--data-type",
+                    "hotpotqa"
+                ],
+                "datasetMounts": [
+                    {
+                        "datasetId": "ds_5oy43lifgu2n",
+                        "containerPath": "/input/input-2.jsonl"
+                    }
+                ],
+                "requirements": {
+                    "memory": "20g",
+                    "cpu": 16
+                }
+            },
+            "name": "subtask-2"
+        },
+        {
+            "spec": {
+                "description": "subtask-3",
+                "image": "bp_qn83fzwt0nzm",
+                "resultPath": "/output",
+                "args": [
+                    "python",
+                    "hotpotqa_para2sentences_dirk.py",
+                    "/input/input-3.jsonl",
+                    "/output/output-3.jsonl",
+                    "--data-type",
+                    "hotpotqa"
+                ],
+                "datasetMounts": [
+                    {
+                        "datasetId": "ds_vatrxpar11tn",
+                        "containerPath": "/input/input-3.jsonl"
+                    }
+                ],
+                "requirements": {
+                    "memory": "20g",
+                    "cpu": 16
+                }
+            },
+            "name": "subtask-3"
+        },
+        {
+            "spec": {
+                "description": "subtask-4",
+                "image": "bp_qn83fzwt0nzm",
+                "resultPath": "/output",
+                "args": [
+                    "python",
+                    "hotpotqa_para2sentences_dirk.py",
+                    "/input/input-4.jsonl",
+                    "/output/output-4.jsonl",
+                    "--data-type",
+                    "hotpotqa"
+                ],
+                "datasetMounts": [
+                    {
+                        "datasetId": "ds_xiw80c1baojm",
+                        "containerPath": "/input/input-4.jsonl"
+                    }
+                ],
+                "requirements": {
+                    "memory": "20g",
+                    "cpu": 16
+                }
+            },
+            "name": "subtask-4"
+        },
+        {
+            "spec": {
+                "description": "subtask-5",
+                "image": "bp_qn83fzwt0nzm",
+                "resultPath": "/output",
+                "args": [
+                    "python",
+                    "hotpotqa_para2sentences_dirk.py",
+                    "/input/input-5.jsonl",
+                    "/output/output-5.jsonl",
+                    "--data-type",
+                    "hotpotqa"
+                ],
+                "datasetMounts": [
+                    {
+                        "datasetId": "ds_iu1izc8owu8z",
+                        "containerPath": "/input/input-5.jsonl"
+                    }
+                ],
+                "requirements": {
+                    "memory": "20g",
+                    "cpu": 16
+                }
+            },
+            "name": "subtask-5"
+        },
+        {
+            "spec": {
+                "description": "subtask-6",
+                "image": "bp_qn83fzwt0nzm",
+                "resultPath": "/output",
+                "args": [
+                    "python",
+                    "hotpotqa_para2sentences_dirk.py",
+                    "/input/input-6.jsonl",
+                    "/output/output-6.jsonl",
+                    "--data-type",
+                    "hotpotqa"
+                ],
+                "datasetMounts": [
+                    {
+                        "datasetId": "ds_6htwf8unzj3g",
+                        "containerPath": "/input/input-6.jsonl"
+                    }
+                ],
+                "requirements": {
+                    "memory": "20g",
+                    "cpu": 16
+                }
+            },
+            "name": "subtask-6"
+        },
+        {
+            "spec": {
+                "description": "subtask-7",
+                "image": "bp_qn83fzwt0nzm",
+                "resultPath": "/output",
+                "args": [
+                    "python",
+                    "hotpotqa_para2sentences_dirk.py",
+                    "/input/input-7.jsonl",
+                    "/output/output-7.jsonl",
+                    "--data-type",
+                    "hotpotqa"
+                ],
+                "datasetMounts": [
+                    {
+                        "datasetId": "ds_pnwiunzsxw26",
+                        "containerPath": "/input/input-7.jsonl"
+                    }
+                ],
+                "requirements": {
+                    "memory": "20g",
+                    "cpu": 16
+                }
+            },
+            "name": "subtask-7"
+        },
+        {
+            "spec": {
+                "description": "subtask-8",
+                "image": "bp_qn83fzwt0nzm",
+                "resultPath": "/output",
+                "args": [
+                    "python",
+                    "hotpotqa_para2sentences_dirk.py",
+                    "/input/input-8.jsonl",
+                    "/output/output-8.jsonl",
+                    "--data-type",
+                    "hotpotqa"
+                ],
+                "datasetMounts": [
+                    {
+                        "datasetId": "ds_849xlocbpyad",
+                        "containerPath": "/input/input-8.jsonl"
+                    }
+                ],
+                "requirements": {
+                    "memory": "20g",
+                    "cpu": 16
+                }
+            },
+            "name": "subtask-8"
+        },
+        {
+            "spec": {
+                "description": "subtask-9",
+                "image": "bp_qn83fzwt0nzm",
+                "resultPath": "/output",
+                "args": [
+                    "python",
+                    "hotpotqa_para2sentences_dirk.py",
+                    "/input/input-9.jsonl",
+                    "/output/output-9.jsonl",
+                    "--data-type",
+                    "hotpotqa"
+                ],
+                "datasetMounts": [
+                    {
+                        "datasetId": "ds_1szk4vdn46bo",
+                        "containerPath": "/input/input-9.jsonl"
+                    }
+                ],
+                "requirements": {
+                    "memory": "20g",
+                    "cpu": 16
+                }
+            },
+            "name": "subtask-9"
+        },
+        {
+            "spec": {
+                "description": "subtask-10",
+                "image": "bp_qn83fzwt0nzm",
+                "resultPath": "/output",
+                "args": [
+                    "python",
+                    "hotpotqa_para2sentences_dirk.py",
+                    "/input/input-10.jsonl",
+                    "/output/output-10.jsonl",
+                    "--data-type",
+                    "hotpotqa"
+                ],
+                "datasetMounts": [
+                    {
+                        "datasetId": "ds_q045i8tzrmiy",
+                        "containerPath": "/input/input-10.jsonl"
+                    }
+                ],
+                "requirements": {
+                    "memory": "20g",
+                    "cpu": 16
+                }
+            },
+            "name": "subtask-10"
+        },
+        {
+            "spec": {
+                "description": "merge all the outputs",
+                "image": "merge_concat",
+                "args": [
+                    "--input-files",
+                    "/output-1/output-1.jsonl",
+                    "/output-2/output-2.jsonl",
+                    "/output-3/output-3.jsonl",
+                    "/output-4/output-4.jsonl",
+                    "/output-5/output-5.jsonl",
+                    "/output-6/output-6.jsonl",
+                    "/output-7/output-7.jsonl",
+                    "/output-8/output-8.jsonl",
+                    "/output-9/output-9.jsonl",
+                    "/output-10/output-10.jsonl",
+                    "--output-file",
+                    "/output/output.jsonl"
+                ],
+                "resultPath": "/output"
+            },
+            "name": "merge_suboutputs",
+            "dependsOn": [
+                {
+                    "parentName": "subtask-1",
+                    "containerPath": "/output-1"
+                },
+                {
+                    "parentName": "subtask-2",
+                    "containerPath": "/output-2"
+                },
+                {
+                    "parentName": "subtask-3",
+                    "containerPath": "/output-3"
+                },
+                {
+                    "parentName": "subtask-4",
+                    "containerPath": "/output-4"
+                },
+                {
+                    "parentName": "subtask-5",
+                    "containerPath": "/output-5"
+                },
+                {
+                    "parentName": "subtask-6",
+                    "containerPath": "/output-6"
+                },
+                {
+                    "parentName": "subtask-7",
+                    "containerPath": "/output-7"
+                },
+                {
+                    "parentName": "subtask-8",
+                    "containerPath": "/output-8"
+                },
+                {
+                    "parentName": "subtask-9",
+                    "containerPath": "/output-9"
+                },
+                {
+                    "parentName": "subtask-10",
+                    "containerPath": "/output-10"
+                }
+            ]
+        }
+    ]
+}
